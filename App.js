@@ -1,16 +1,13 @@
-//import logo from './logo.svg';
-//import './App.css';
-import React from 'react'
-import Add from './first';
+import React from 'react';
+import Quiz from './quiz';
+import './App.css';
+
 function App() {
   return (
-    <div>
-      <Add>
-
-      </Add>
+    <div className='app'>
+      <Quiz />
     </div>
   );
 }
 
 export default App;
- 
