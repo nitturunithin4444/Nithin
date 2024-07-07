@@ -1,11 +1,10 @@
-import React from 'react';
-import Quiz from './quiz';
+import logo from './logo.svg';
 import './App.css';
-
+import Add from './first';
 function App() {
   return (
-    <div className='app'>
-      <Quiz />
+    <div>
+      <Add></Add>
     </div>
   );
 }
